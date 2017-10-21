@@ -63,6 +63,7 @@ public class Raycaster : MonoBehaviour
     public IInteractableObject CurrentInteractableObject;
     public IInteractableObject BeginInteract()
     {
+        print("Begin Interaction!");
         if (CurrentInteractableObject != null)
             return null;
 
@@ -70,6 +71,7 @@ public class Raycaster : MonoBehaviour
         if (h == null) return null;
 
         IInteractableObject obj = h.Value.transform.GetComponent<IInteractableObject>();
+        
         if (obj == null) return null;
 
 
@@ -82,7 +84,6 @@ public class Raycaster : MonoBehaviour
         {
             obj.AsTeleportLocation().BeginInteractObject(ActionHandler);
         }
-
         obj.BeginInteractObject(ActionHandler);
         CurrentInteractableObject = obj;
         return obj;
@@ -101,10 +102,8 @@ public class Raycaster : MonoBehaviour
         else if (CurrentInteractableObject is TeleportLocation)
         {
             CurrentInteractableObject.EndInteractObject(ActionHandler);
+            print("tele");
         }
-
-
-
         CurrentInteractableObject = null;
     }
 

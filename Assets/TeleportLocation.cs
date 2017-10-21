@@ -23,24 +23,26 @@ public class TeleportLocation : MonoBehaviour,IInteractableObject
     public IInteractionObject Owner { get; set; }
     public void BeginInteractObject(IControllerActionHandler handler)
     {
-        
+        StartCoroutine(TimedTeleport());
     }
 
     private bool TimedTeleportComplete = false;
     private IEnumerator TimedTeleport()
     {
         yield return new WaitForSeconds(1f);
-
+        TimedTeleportComplete = true;
     }
 
 
     public void EndInteractObject(IControllerActionHandler handler)
     {
+        StopCoroutine(TimedTeleport());
         if (TimedTeleportComplete)
         {
-            RaycastHit? h = handler.Raycaster.TryRaycast(-1 << LayerMask.NameToLayer("Teleportable"));
+            RaycastHit? h = handler.Raycaster.TryRaycast(-1 << LayerMask.NameToLayer("InteractibleObject"));
             if (h != null && h.Value.transform.GetComponent<TeleportLocation>())
                 handler.AsViveActionHandler().Player.transform.position = h.Value.point;
+            TimedTeleportComplete = false;
         }
     }
 }
