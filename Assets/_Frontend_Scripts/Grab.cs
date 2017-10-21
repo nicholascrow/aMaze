@@ -83,11 +83,11 @@ namespace Scripts.Grab
         {
             if (CurrentlyGrabbedObject == null)
             {
-                ActionHandler.Raycaster.Laser.Laser.enabled = true;
+                if (ActionHandler.Raycaster.Laser.Laser != null)
+                    ActionHandler.Raycaster.Laser.Laser.enabled = true;
                 RaycastHit? h = ActionHandler.Raycaster.TryRaycast(-1 << LayerMask.NameToLayer("InteractibleObject"));
                 if (h != null)
                 {
-                    print("highlighting");
                     ActionHandler.Raycaster.Laser.SetHitPosition(ActionHandler.Raycaster.Laser.transform.InverseTransformPoint(h.Value.point));
                     if (h.Value.collider.GetComponent<IInteractableObject>() is IGrabInteractibleObject)
                     {

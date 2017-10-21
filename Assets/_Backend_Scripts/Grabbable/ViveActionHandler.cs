@@ -20,7 +20,7 @@ public class ViveActionHandler : MonoBehaviour, IViveActionHandler
         Input = gameObject.AddComponent<ViveInputHandler>();
         Grab = gameObject.AddComponent<Grab>();
         Raycaster = gameObject.AddComponent<Raycaster>();
-        Player = transform.parent;
+        Player = this.gameObject.transform;
     }
 
 

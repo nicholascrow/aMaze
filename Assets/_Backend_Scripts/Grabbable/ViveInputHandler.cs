@@ -31,6 +31,16 @@ public class ViveInputHandler : MonoBehaviour
             IndexTriggerHeld();
         }
 
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            IndexTriggerDown();
+        }
+        if (Input.GetKeyUp(KeyCode.Space))
+        {
+            IndexTriggerUp();
+        }
+
     }
 
 
