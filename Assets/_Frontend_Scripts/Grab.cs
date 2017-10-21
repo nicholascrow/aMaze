@@ -28,8 +28,8 @@ namespace Scripts.Grab
 
             var rigidbody = CurrentlyGrabbedObject.GetGameObject().GetComponent<Rigidbody>();
             var device = SteamVR_Controller.Input((int)handler.AsViveActionHandler().Input.trackedObj.index);
-            var origin = handler.AsViveActionHandler().Input.trackedObj.origin ? 
-                handler.AsViveActionHandler().Input.trackedObj.origin : 
+            var origin = handler.AsViveActionHandler().Input.trackedObj.origin ?
+                handler.AsViveActionHandler().Input.trackedObj.origin :
                 handler.AsViveActionHandler().Input.trackedObj.transform.parent;
             if (origin != null)
             {
@@ -77,6 +77,36 @@ namespace Scripts.Grab
         void Start()
         {
             ActionHandler = GetComponent<IControllerActionHandler>();
+        }
+
+        void Update()
+        {
+            if (CurrentlyGrabbedObject == null)
+            {
+                ActionHandler.Raycaster.Laser.Laser.enabled = true;
+                RaycastHit? h = ActionHandler.Raycaster.TryRaycast(-1 << LayerMask.NameToLayer("InteractibleObject"));
+                if (h != null)
+                {
+                    print("highlighting");
+                    ActionHandler.Raycaster.Laser.SetHitPosition(ActionHandler.Raycaster.Laser.transform.InverseTransformPoint(h.Value.point));
+                    if (h.Value.collider.GetComponent<IInteractableObject>() is IGrabInteractibleObject)
+                    {
+                        if (h.Value.collider.GetComponent<IInteractableObject>().AsGrabInteractibleObject().Owner ==
+                            null)
+                            h.Value.collider.GetComponent<IInteractableObject>().AsGrabInteractibleObject()
+                                    .IsHighlighted =
+                                true;
+                    }
+                }
+                else
+                {
+                    ActionHandler.Raycaster.Laser.SetHitPosition(Vector3.forward * 1000);
+                }
+            }
+            else
+            {
+                ActionHandler.Raycaster.Laser.Laser.enabled = false;
+            }
         }
     }
 }

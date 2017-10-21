@@ -1,12 +1,41 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
 //using Assets.Scripts.Menu;
 using Scripts.Grab;
 using UnityEngine;
 
+
+public class LaserPointer : MonoBehaviour
+{
+    public LineRenderer Laser;
+
+    void Start()
+    {
+        Laser = gameObject.AddComponent<LineRenderer>();
+        Laser.positionCount = 2;
+        Laser.startWidth = Laser.endWidth = .01f;
+        Laser.startColor = Laser.endColor = new Color(0, 1, 0, 1);
+        Laser.useWorldSpace = false;
+    }
+
+    void Update()
+    {
+        Laser.SetPosition(0, Vector3.zero);
+    }
+
+    public void SetHitPosition(Vector3 position)
+    {
+        if (Laser != null)
+            Laser.SetPosition(1, position);
+    }
+}
+
 public class Raycaster : MonoBehaviour
 {
     public Ray ControllerPointRay;
+    public LaserPointer Laser;
     private IControllerActionHandler ActionHandler;
+
     void Update()
     {
         UpdateRay();
@@ -16,6 +45,7 @@ public class Raycaster : MonoBehaviour
     void Start()
     {
         ActionHandler = GetComponent<IControllerActionHandler>();
+        Laser = gameObject.AddComponent<LaserPointer>();
     }
 
     public RaycastHit? TryRaycast(LayerMask m)
@@ -42,13 +72,18 @@ public class Raycaster : MonoBehaviour
         IInteractableObject obj = h.Value.transform.GetComponent<IInteractableObject>();
         if (obj == null) return null;
 
+
         if (obj is IGrabInteractibleObject)
         {
-            ActionHandler.Grab.BeginInteractObject(ActionHandler);
+            if (obj.AsGrabInteractibleObject().Owner == null)
+                ActionHandler.Grab.BeginInteractObject(ActionHandler);
+        }
+        else if (obj is TeleportLocation)
+        {
+            obj.AsTeleportLocation().BeginInteractObject(ActionHandler);
         }
 
         obj.BeginInteractObject(ActionHandler);
-
         CurrentInteractableObject = obj;
         return obj;
     }
@@ -58,10 +93,17 @@ public class Raycaster : MonoBehaviour
         if (CurrentInteractableObject == null) return;
         CurrentInteractableObject.EndInteractObject(ActionHandler);
 
+
         if (CurrentInteractableObject is IGrabInteractibleObject)
         {
             ActionHandler.Grab.EndInteractObject(ActionHandler);
         }
+        else if (CurrentInteractableObject is TeleportLocation)
+        {
+            CurrentInteractableObject.EndInteractObject(ActionHandler);
+        }
+
+
 
         CurrentInteractableObject = null;
     }

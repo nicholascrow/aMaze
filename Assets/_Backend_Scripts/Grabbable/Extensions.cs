@@ -8,4 +8,13 @@
     {
         return handler as IViveActionHandler;
     }
+
+    public static IGrabInteractibleObject AsGrabInteractibleObject(this IInteractableObject obj)
+    {
+        return obj as IGrabInteractibleObject;
+    }
+    public static TeleportLocation AsTeleportLocation(this IInteractableObject obj)
+    {
+        return obj as TeleportLocation;
+    }
 }

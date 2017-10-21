@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using Scripts.Grab;
+using UnityEngine;
 
 public interface IControllerActionHandler
 {
@@ -23,4 +24,6 @@ public interface IViveActionHandler : IControllerActionHandler
     ViveInputHandler Input { get; set; }
 
     ViveInputHandler InputHandler();
+
+    Transform Player { get; set; }
 }

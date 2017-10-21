@@ -13,8 +13,18 @@ namespace Scripts.Grab
         }
 
         public bool HasPhysicsEnabled { get; private set; }
+        public bool IsHighlighted { get; set; }
+
+        private Color oldColor;
 
         public IInteractionObject Owner { get; set; }
+
+
+        void Start()
+        {
+            oldColor = GetComponent<Renderer>().material.color;
+        }
+
 
         public void BeginInteractObject(IControllerActionHandler handler)
         {
@@ -34,7 +44,10 @@ namespace Scripts.Grab
         public void UpdateTransform()
         {
             if (Owner != null)
+            {
                 transform.position = Owner.GetGameObject().transform.position;
+                transform.rotation = Owner.GetGameObject().transform.rotation;
+            }
         }
 
         private void Update()
@@ -42,6 +55,15 @@ namespace Scripts.Grab
             if (IsGrabbed)
             {
                 UpdateTransform();
+            }
+            if (IsHighlighted)
+            {
+                GetComponent<Renderer>().material.color = Color.green;
+                IsHighlighted = false;
+            }
+            else
+            {
+                GetComponent<Renderer>().material.color = oldColor;
             }
         }
     }

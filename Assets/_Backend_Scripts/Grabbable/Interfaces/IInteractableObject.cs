@@ -15,6 +15,7 @@ public interface IGrabInteractibleObject : IInteractableObject
 {
     bool IsGrabbed { get; }
     bool HasPhysicsEnabled { get; }
+    bool IsHighlighted { get; set; }
     void UpdateTransform();
 }
 
