@@ -26,4 +26,6 @@ public interface IViveActionHandler : IControllerActionHandler
     ViveInputHandler InputHandler();
 
     Transform Player { get; set; }
+
+    Shoot Shoot { get; set; }
 }

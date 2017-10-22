@@ -30,6 +30,20 @@ public class ViveInputHandler : MonoBehaviour
         {
             IndexTriggerHeld();
         }
+
+        if (device.GetTouchDown(SteamVR_Controller.ButtonMask.Grip))
+        {
+            HandTriggerHeld();
+        }
+        if (device.GetTouchUp(SteamVR_Controller.ButtonMask.Grip))
+        {
+            HandTriggerHeld();
+        }
+
+
+
+
+
         if (device.GetTouchDown(SteamVR_Controller.ButtonMask.ApplicationMenu))
         {
             Debug.Break();
@@ -55,7 +69,11 @@ public class ViveInputHandler : MonoBehaviour
     }
     public void HandTriggerHeld()
     {
-
+        if (ActionHandler.Grab.CurrentlyGrabbedObject != null &&
+            ActionHandler.Grab.CurrentlyGrabbedObject.GetGameObject().name == "Gun")
+        {
+            ActionHandler.Shoot.ShootGun(ActionHandler.Grab.CurrentlyGrabbedObject.GetGameObject());
+        }
     }
     public void HandTriggerUp()
     {

@@ -8,7 +8,6 @@ public class ViveActionHandler : MonoBehaviour, IViveActionHandler
     public Raycaster Raycaster { get; set; }
 
 
-
     // Use this for initialization
     void Start()
     {
@@ -20,6 +19,7 @@ public class ViveActionHandler : MonoBehaviour, IViveActionHandler
         Input = gameObject.AddComponent<ViveInputHandler>();
         Grab = gameObject.AddComponent<Grab>();
         Raycaster = gameObject.AddComponent<Raycaster>();
+        Shoot = gameObject.AddComponent<Shoot>();
         Player = this.transform.parent;
     }
 
@@ -30,6 +30,7 @@ public class ViveActionHandler : MonoBehaviour, IViveActionHandler
     }
 
     public Transform Player { get; set; }
+    public Shoot Shoot { get; set; }
 
 
     public Grab GrabHandler()
