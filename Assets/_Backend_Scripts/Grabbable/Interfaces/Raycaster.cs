@@ -14,7 +14,7 @@ public class LaserPointer : MonoBehaviour
         Laser = gameObject.AddComponent<LineRenderer>();
         Laser.positionCount = 2;
         Laser.startWidth = Laser.endWidth = .01f;
-        Laser.startColor = Laser.endColor = new Color(0, 1, 0, 1);
+        Laser.startColor = Laser.endColor = Color.gray;
         Laser.useWorldSpace = false;
     }
 
