@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class NavSomewhere : MonoBehaviour {
-
+public class NavSomewhere : MonoBehaviour
+{
+    public float timeChange;
+    public Transform changeLater;
 
     public Transform[] goal;
     private NavMeshAgent agent;
@@ -16,6 +18,11 @@ public class NavSomewhere : MonoBehaviour {
     {
         agent = GetComponent<NavMeshAgent>();
         agent.destination = goal[position].position;
+
+        if (changeLater != null)
+        {
+            StartCoroutine(TimeToChange(timeChange));
+        }
     }
 
     void Update()
@@ -43,5 +50,11 @@ public class NavSomewhere : MonoBehaviour {
             hits++;
             GetComponent<AudioSource>().Play();
         }
+    }
+
+    IEnumerator TimeToChange(float time)
+    {
+        yield return new WaitForSeconds(time);
+        agent.destination = changeLater.transform.position;
     }
 }

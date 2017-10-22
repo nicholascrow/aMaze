@@ -70,7 +70,7 @@ public class ViveInputHandler : MonoBehaviour
     public void HandTriggerHeld()
     {
         if (ActionHandler.Grab.CurrentlyGrabbedObject != null &&
-            ActionHandler.Grab.CurrentlyGrabbedObject.GetGameObject().name == "Gun")
+            ActionHandler.Grab.CurrentlyGrabbedObject.GetGameObject().name.Contains("Gun"))
         {
             ActionHandler.Shoot.ShootGun(ActionHandler.Grab.CurrentlyGrabbedObject.GetGameObject());
         }

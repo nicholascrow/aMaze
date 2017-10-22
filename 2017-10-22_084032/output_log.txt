@@ -1,0 +1,658 @@
+Initialize engine version: 5.6.3f1 (d3101c3b8468)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c60)
+    Vendor:   NVIDIA
+    VRAM:     6049 MB
+    Driver:   22.21.13.8528
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\CSVR\Desktop\aMaze\aMaze_V1_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\CSVR\Desktop\aMaze\aMaze_V1_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\CSVR\Desktop\aMaze\aMaze_V1_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\CSVR\Desktop\aMaze\aMaze_V1_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\CSVR\Desktop\aMaze\aMaze_V1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\CSVR\Desktop\aMaze\aMaze_V1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\CSVR\Desktop\aMaze\aMaze_V1_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\CSVR\Desktop\aMaze\aMaze_V1_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\CSVR\Desktop\aMaze\aMaze_V1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\CSVR\Desktop\aMaze\aMaze_V1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\CSVR\Desktop\aMaze\aMaze_V1_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\CSVR\Desktop\aMaze\aMaze_V1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\CSVR\Desktop\aMaze\aMaze_V1_Data\Managed\UnityEngine.VR.dll (this message is harmless)
+Loading C:\Users\CSVR\Desktop\aMaze\aMaze_V1_Data\Managed\UnityEngine.VR.dll into Unity Child Domain
+- Completed reload, in  0.020 seconds
+Platform assembly: C:\Users\CSVR\Desktop\aMaze\aMaze_V1_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\CSVR\Desktop\aMaze\aMaze_V1_Data\Managed\System.dll (this message is harmless)
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1920x1080 60Hz; virtual: 3600x1080 at -1680,0
+<RI> Initialized touch support.
+OpenVR initialized!
+ 
+(Filename:  Line: 424)
+
+[Physics.PhysX] Cooking::cookConvexMesh: user-provided hull must have less than 256 vertices!
+ 
+(Filename: C:/buildslave/physx/build/Source/PhysXCooking/src/Cooking.cpp Line: 273)
+
+Failed to create Convex Mesh from source mesh "Plane". Source mesh is likely have too many smooth surface regions. Please reduce the surface smoothness of the source mesh. Alternatively turn on Inflate Mesh and increase the Skin Width sufficiently for this mesh.
+ 
+(Filename:  Line: 54)
+
+UnloadTime: 0.768394 ms
+Connected to lighthouse:LHR-857B109F
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 3ae8 -> priority: 1 
+  Thread -> id: 4378 -> priority: 1 
+  Thread -> id: 3ba4 -> priority: 1 
+  Thread -> id: 4eb4 -> priority: 1 
+Begin Interaction!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Plane
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+tele
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Begin Interaction!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Plane
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+tele
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Begin Interaction!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Plane
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+tele
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Begin Interaction!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Gun (2)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Begin Interaction!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Plane
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+tele
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Begin Interaction!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Plane
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+tele
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Begin Interaction!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Plane
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+tele
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+"GetRemainingDistance" can only be called on an active agent that has been placed on a NavMesh.
+ 
+(Filename:  Line: 649)
+
+Begin Interaction!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Plane
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+tele
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Begin Interaction!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Plane
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+tele
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Begin Interaction!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Plane
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+tele
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Begin Interaction!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Plane
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+tele
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Begin Interaction!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Plane
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+tele
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Begin Interaction!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Plane
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+tele
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Begin Interaction!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Plane
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+tele
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Begin Interaction!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Plane
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+tele
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Begin Interaction!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Plane
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+tele
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Begin Interaction!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Plane
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+tele
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Begin Interaction!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Plane
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+tele
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Begin Interaction!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Plane
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+tele
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Begin Interaction!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Plane
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+tele
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Begin Interaction!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Plane
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+tele
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Begin Interaction!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Plane
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+tele
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Begin Interaction!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Plane
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+tele
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Begin Interaction!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Plane
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+tele
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Begin Interaction!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Plane
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+tele
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Begin Interaction!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Plane
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+tele
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Begin Interaction!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Plane
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+tele
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Begin Interaction!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Plane
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+tele
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Begin Interaction!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Plane
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+tele
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Begin Interaction!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Plane
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+tele
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Begin Interaction!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Plane
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+tele
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Begin Interaction!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Plane
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+tele
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Begin Interaction!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Plane
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+tele
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Begin Interaction!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Plane
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+tele
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Begin Interaction!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Plane
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+tele
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Begin Interaction!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Plane
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+tele
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Begin Interaction!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Candy Corn (7)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Begin Interaction!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Plane
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+tele
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Begin Interaction!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Lollipop (2)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+D3D11: Failed to create RenderTexture (2048 x 2048 fmt 39 aa 1), error 0x887a0005
+ 
+(Filename:  Line: 378)
+
+D3D11: Failed to create RenderTexture (1024 x 1024 fmt 27 aa 1), error 0x887a0005
+ 
+(Filename:  Line: 378)
+
+InitD3D11RenderColorSurface: VRDevice said it created a texture, but the texture is NULL. VR platform drivers may be running with elevated privileges.
+ 
+(Filename:  Line: 550)
+
+D3D11: Failed to create RenderTexture (2048 x 2048 fmt 39 aa 1), error 0x887a0005
+ 
+(Filename:  Line: 378)
+
+D3D11: Failed to create RenderTexture (1024 x 1024 fmt 27 aa 1), error 0x887a0005
+ 
+(Filename:  Line: 378)
+
+InitD3D11RenderColorSurface: VRDevice said it created a texture, but the texture is NULL. VR platform drivers may be running with elevated privileges.
+ 
+(Filename:  Line: 550)
+
+d3d11: failed to create buffer (target 0x2 mode 2 size 65536) [0x887A0005]
+d3d11: attempt to lock null buffer
+Crash!!!
+SymInit: Symbol-SearchPath: '.;C:\Users\CSVR\Desktop\aMaze;C:\Users\CSVR\Desktop\aMaze;C:\WINDOWS;C:\WINDOWS\system32;SRV*C:\websymbols*http://msdl.microsoft.com/download/symbols;', symOptions: 530, UserName: 'CSVR'
+OS-Version: 10.0.15063 () 0x300-0x1
+C:\Users\CSVR\Desktop\aMaze\aMaze_V1.exe:aMaze_V1.exe (00007FF670010000), size: 23801856 (result: 0), SymType: '-exported-', PDB: 'C:\Users\CSVR\Desktop\aMaze\aMaze_V1.exe', fileVersion: 5.6.3.4124
+C:\WINDOWS\SYSTEM32\ntdll.dll:ntdll.dll (00007FF9B3CA0000), size: 1945600 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\ntdll.dll', fileVersion: 10.0.15063.608
+C:\WINDOWS\System32\KERNEL32.DLL:KERNEL32.DLL (00007FF9B3150000), size: 712704 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\KERNEL32.DLL', fileVersion: 10.0.15063.296
+C:\WINDOWS\System32\KERNELBASE.dll:KERNELBASE.dll (00007FF9B04C0000), size: 2396160 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\KERNELBASE.dll', fileVersion: 10.0.15063.674
+C:\WINDOWS\System32\USER32.dll:USER32.dll (00007FF9B27A0000), size: 1351680 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\USER32.dll', fileVersion: 10.0.15063.674
+C:\WINDOWS\System32\win32u.dll:win32u.dll (00007FF9B0780000), size: 122880 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\win32u.dll', fileVersion: 10.0.15063.608
+C:\WINDOWS\System32\GDI32.dll:GDI32.dll (00007FF9B3C70000), size: 159744 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\GDI32.dll', fileVersion: 10.0.15063.0
+C:\WINDOWS\System32\gdi32full.dll:gdi32full.dll (00007FF9B0EA0000), size: 1601536 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\gdi32full.dll', fileVersion: 10.0.15063.674
+C:\WINDOWS\SYSTEM32\HID.DLL:HID.DLL (00007FF9AEFD0000), size: 53248 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\HID.DLL', fileVersion: 10.0.15063.0
+C:\WINDOWS\System32\msvcrt.dll:msvcrt.dll (00007FF9B30B0000), size: 643072 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\msvcrt.dll', fileVersion: 7.0.15063.0
+C:\WINDOWS\System32\msvcp_win.dll:msvcp_win.dll (00007FF9B0420000), size: 630784 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\msvcp_win.dll', fileVersion: 10.0.15063.0
+C:\WINDOWS\System32\ucrtbase.dll:ucrtbase.dll (00007FF9B01C0000), size: 1007616 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\ucrtbase.dll', fileVersion: 10.0.15063.674
+C:\WINDOWS\System32\ole32.dll:ole32.dll (00007FF9B2AE0000), size: 1331200 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\ole32.dll', fileVersion: 10.0.15063.502
+C:\WINDOWS\System32\combase.dll:combase.dll (00007FF9B2CB0000), size: 3117056 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\combase.dll', fileVersion: 10.0.15063.608
+C:\WINDOWS\System32\RPCRT4.dll:RPCRT4.dll (00007FF9B34D0000), size: 1200128 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\RPCRT4.dll', fileVersion: 10.0.15063.674
+C:\WINDOWS\SYSTEM32\VERSION.dll:VERSION.dll (00007FF9ABA20000), size: 40960 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\VERSION.dll', fileVersion: 10.0.15063.0
+C:\WINDOWS\System32\bcryptPrimitives.dll:bcryptPrimitives.dll (00007FF9B0710000), size: 434176 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\bcryptPrimitives.dll', fileVersion: 10.0.15063.0
+C:\WINDOWS\System32\sechost.dll:sechost.dll (00007FF9B3370000), size: 364544 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\sechost.dll', fileVersion: 10.0.15063.0
+C:\WINDOWS\System32\SHLWAPI.dll:SHLWAPI.dll (00007FF9B3050000), size: 331776 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\SHLWAPI.dll', fileVersion: 10.0.15063.502
+C:\WINDOWS\System32\ADVAPI32.dll:ADVAPI32.dll (00007FF9B1200000), size: 659456 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\ADVAPI32.dll', fileVersion: 10.0.15063.674
+C:\WINDOWS\System32\SHELL32.dll:SHELL32.dll (00007FF9B12B0000), size: 21192704 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\SHELL32.dll', fileVersion: 10.0.15063.674
+C:\WINDOWS\System32\cfgmgr32.dll:cfgmgr32.dll (00007FF9B0320000), size: 299008 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\cfgmgr32.dll', fileVersion: 10.0.15063.0
+C:\WINDOWS\System32\shcore.dll:shcore.dll (00007FF9B26F0000), size: 696320 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\shcore.dll', fileVersion: 10.0.15063.608
+C:\WINDOWS\System32\windows.storage.dll:windows.storage.dll (00007FF9B07A0000), size: 7278592 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\windows.storage.dll', fileVersion: 10.0.15063.674
+C:\WINDOWS\System32\kernel.appcore.dll:kernel.appcore.dll (00007FF9B01A0000), size: 69632 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\kernel.appcore.dll', fileVersion: 10.0.15063.0
+C:\WINDOWS\System32\powrprof.dll:powrprof.dll (00007FF9B0150000), size: 311296 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\powrprof.dll', fileVersion: 10.0.15063.0
+C:\WINDOWS\System32\profapi.dll:profapi.dll (00007FF9B0110000), size: 86016 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\System32\profapi.dll', fileVersion: 10.0.15063.0
+C:\WINDOWS\System32\WS2_32.dll:WS2_32.dll (00007FF9B2C30000), size: 442368 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\WS2_32.dll', fileVersion: 10.0.15063.0
+C:\WINDOWS\System32\OLEAUT32.dll:OLEAUT32.dll (00007FF9B3600000), size: 786432 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\OLEAUT32.dll', fileVersion: 10.0.15063.674
+C:\WINDOWS\System32\IMM32.dll:IMM32.dll (00007FF9B2AA0000), size: 184320 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\IMM32.dll', fileVersion: 10.0.15063.0
+C:\WINDOWS\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FF986EB0000), size: 1183744 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\OPENGL32.dll', fileVersion: 10.0.15063.0
+C:\WINDOWS\SYSTEM32\WINMM.dll:WINMM.dll (00007FF9A6CA0000), size: 143360 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\WINMM.dll', fileVersion: 10.0.15063.0
+C:\WINDOWS\SYSTEM32\DNSAPI.dll:DNSAPI.dll (00007FF9AF7A0000), size: 671744 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\DNSAPI.dll', fileVersion: 10.0.15063.674
+C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (00007FF9AF760000), size: 225280 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL', fileVersion: 10.0.15063.0
+C:\WINDOWS\System32\NSI.dll:NSI.dll (00007FF9B28F0000), size: 32768 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\NSI.dll', fileVersion: 10.0.15063.0
+C:\WINDOWS\SYSTEM32\WINHTTP.dll:WINHTTP.dll (00007FF9A9280000), size: 880640 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\WINHTTP.dll', fileVersion: 10.0.15063.608
+C:\WINDOWS\SYSTEM32\GLU32.dll:GLU32.dll (00007FF99A940000), size: 180224 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\GLU32.dll', fileVersion: 10.0.15063.0
+C:\WINDOWS\SYSTEM32\WINMMBASE.dll:WINMMBASE.dll (00007FF9A5C50000), size: 176128 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\WINMMBASE.dll', fileVersion: 10.0.15063.0
+C:\WINDOWS\system32\uxtheme.dll:uxtheme.dll (00007FF9AEA10000), size: 610304 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\uxtheme.dll', fileVersion: 10.0.15063.0
+C:\Users\CSVR\Desktop\aMaze\aMaze_V1_Data\Mono\mono.dll:mono.dll (00007FF955680000), size: 2998272 (result: 0), SymType: '-exported-', PDB: 'C:\Users\CSVR\Desktop\aMaze\aMaze_V1_Data\Mono\mono.dll', fileVersion: 1.0.0.1
+C:\WINDOWS\System32\PSAPI.DLL:PSAPI.DLL (00007FF9B2AD0000), size: 32768 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\PSAPI.DLL', fileVersion: 10.0.15063.0
+C:\WINDOWS\SYSTEM32\MSWSOCK.dll:MSWSOCK.dll (00007FF9AF9C0000), size: 376832 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\MSWSOCK.dll', fileVersion: 10.0.15063.0
+C:\Users\CSVR\Desktop\aMaze\aMaze_V1_Data\Plugins\AudioPluginOculusSpatializer.dll:AudioPluginOculusSpatializer.dll (00007FF955340000), size: 3358720 (result: 0), SymType: '-exported-', PDB: 'C:\Users\CSVR\Desktop\aMaze\aMaze_V1_Data\Plugins\AudioPluginOculusSpatializer.dll'
+C:\WINDOWS\System32\MSCTF.dll:MSCTF.dll (00007FF9B3200000), size: 1466368 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\MSCTF.dll', fileVersion: 10.0.15063.674
+C:\WINDOWS\system32\dwmapi.dll:dwmapi.dll (00007FF9A69A0000), size: 172032 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\dwmapi.dll', fileVersion: 10.0.15063.0
+C:\WINDOWS\SYSTEM32\d3d11.dll:d3d11.dll (00007FF9AD5D0000), size: 3010560 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\d3d11.dll', fileVersion: 10.0.15063.0
+C:\WINDOWS\SYSTEM32\dxgi.dll:dxgi.dll (00007FF9AF060000), size: 671744 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\dxgi.dll', fileVersion: 10.0.15063.502
+C:\Users\CSVR\Desktop\aMaze\aMaze_V1_Data\Plugins\openvr_api.dll:openvr_api.dll (00007FF9552F0000), size: 323584 (result: 0), SymType: '-exported-', PDB: 'C:\Users\CSVR\Desktop\aMaze\aMaze_V1_Data\Plugins\openvr_api.dll'
+C:\WINDOWS\System32\SETUPAPI.dll:SETUPAPI.dll (00007FF9B3720000), size: 4435968 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\SETUPAPI.dll', fileVersion: 10.0.15063.608
+C:\WINDOWS\System32\DEVOBJ.dll:DEVOBJ.dll (00007FF9AEC40000), size: 163840 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\DEVOBJ.dll', fileVersion: 10.0.15063.0
+C:\WINDOWS\System32\WINTRUST.dll:WINTRUST.dll (00007FF9B02C0000), size: 352256 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\WINTRUST.dll', fileVersion: 10.0.15063.0
+C:\WINDOWS\System32\MSASN1.dll:MSASN1.dll (00007FF9B0130000), size: 69632 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\MSASN1.dll', fileVersion: 10.0.15063.0
+C:\WINDOWS\System32\CRYPT32.dll:CRYPT32.dll (00007FF9B1030000), size: 1871872 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\CRYPT32.dll', fileVersion: 10.0.15063.296
+C:\WINDOWS\system32\nvapi64.dll:nvapi64.dll (00007FF9A27C0000), size: 4452352 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\nvapi64.dll', fileVersion: 22.21.13.8528
+C:\WINDOWS\System32\DriverStore\FileRepository\nvami.inf_amd64_4388e33aefc42cce\nvldumdx.dll:nvldumdx.dll (00007FF99E370000), size: 921600 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\DriverStore\FileRepository\nvami.inf_amd64_4388e33aefc42cce\nvldumdx.dll', fileVersion: 22.21.13.8528
+C:\WINDOWS\System32\imagehlp.dll:imagehlp.dll (00007FF9B33D0000), size: 118784 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\imagehlp.dll', fileVersion: 10.0.15063.168
+C:\WINDOWS\System32\CRYPTSP.dll:CRYPTSP.dll (00007FF9AFB60000), size: 94208 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\CRYPTSP.dll', fileVersion: 10.0.15063.0
+C:\WINDOWS\system32\rsaenh.dll:rsaenh.dll (00007FF9AF5E0000), size: 212992 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\rsaenh.dll', fileVersion: 10.0.15063.0
+C:\WINDOWS\SYSTEM32\bcrypt.dll:bcrypt.dll (00007FF9AFFE0000), size: 151552 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\bcrypt.dll', fileVersion: 10.0.15063.0
+C:\WINDOWS\SYSTEM32\CRYPTBASE.dll:CRYPTBASE.dll (00007FF9AFB80000), size: 45056 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\CRYPTBASE.dll', fileVersion: 10.0.15063.0
+C:\WINDOWS\System32\DriverStore\FileRepository\nvami.inf_amd64_4388e33aefc42cce\nvwgf2umx.dll:nvwgf2umx.dll (00007FF96AC40000), size: 26742784 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\DriverStore\FileRepository\nvami.inf_amd64_4388e33aefc42cce\nvwgf2umx.dll', fileVersion: 22.21.13.8528
+C:\WINDOWS\system32\nvspcap64.dll:nvspcap64.dll (00007FF9A2150000), size: 1949696 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\nvspcap64.dll', fileVersion: 3.8.0.89
+C:\WINDOWS\SYSTEM32\WTSAPI32.dll:WTSAPI32.dll (00007FF9ACE80000), size: 77824 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\WTSAPI32.dll', fileVersion: 10.0.15063.0
+C:\WINDOWS\System32\clbcatq.dll:clbcatq.dll (00007FF9B2FB0000), size: 647168 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\clbcatq.dll', fileVersion: 2001.12.10941.16384
+C:\WINDOWS\system32\wbem\wbemprox.dll:wbemprox.dll (00007FF9A0C60000), size: 65536 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\wbem\wbemprox.dll', fileVersion: 10.0.15063.0
+C:\WINDOWS\SYSTEM32\wbemcomn.dll:wbemcomn.dll (00007FF9A51A0000), size: 532480 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\wbemcomn.dll', fileVersion: 10.0.15063.0
+C:\WINDOWS\system32\wbem\wbemsvc.dll:wbemsvc.dll (00007FF9A1C00000), size: 81920 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\wbem\wbemsvc.dll', fileVersion: 10.0.15063.0
+C:\WINDOWS\system32\wbem\fastprox.dll:fastprox.dll (00007FF9A1EC0000), size: 983040 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\wbem\fastprox.dll', fileVersion: 10.0.15063.0
+C:\WINDOWS\System32\MMDevApi.dll:MMDevApi.dll (00007FF9AAC00000), size: 421888 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\MMDevApi.dll', fileVersion: 10.0.15063.447
+C:\WINDOWS\System32\PROPSYS.dll:PROPSYS.dll (00007FF9AAA30000), size: 1662976 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\PROPSYS.dll', fileVersion: 7.0.15063.608
+C:\WINDOWS\SYSTEM32\wdmaud.drv:wdmaud.drv (00007FF9A1FE0000), size: 266240 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\wdmaud.drv', fileVersion: 10.0.15063.447
+C:\WINDOWS\SYSTEM32\AVRT.dll:AVRT.dll (00007FF9AC410000), size: 45056 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\AVRT.dll', fileVersion: 10.0.15063.0
+C:\WINDOWS\SYSTEM32\ksuser.dll:ksuser.dll (00007FF9ACD60000), size: 36864 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\ksuser.dll', fileVersion: 10.0.15063.0
+C:\WINDOWS\SYSTEM32\AUDIOSES.DLL:AUDIOSES.DLL (00007FF9A9A70000), size: 1069056 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\AUDIOSES.DLL', fileVersion: 10.0.15063.502
+C:\WINDOWS\SYSTEM32\wintypes.dll:wintypes.dll (00007FF9AD070000), size: 1282048 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\wintypes.dll', fileVersion: 10.0.15063.0
+C:\WINDOWS\SYSTEM32\msacm32.drv:msacm32.drv (00007FF9A8DF0000), size: 53248 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\msacm32.drv', fileVersion: 10.0.15063.0
+C:\WINDOWS\SYSTEM32\MSACM32.dll:MSACM32.dll (00007FF9A84F0000), size: 114688 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\MSACM32.dll', fileVersion: 10.0.15063.502
+C:\WINDOWS\SYSTEM32\midimap.dll:midimap.dll (00007FF9A8850000), size: 40960 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\midimap.dll', fileVersion: 10.0.15063.0
+C:\WINDOWS\SYSTEM32\xinput1_3.dll:xinput1_3.dll (0000000000400000), size: 122880 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\xinput1_3.dll', fileVersion: 9.18.944.0
+C:\WINDOWS\SYSTEM32\TextInputFramework.dll:TextInputFramework.dll (00007FF99EB60000), size: 532480 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\TextInputFramework.dll', fileVersion: 10.0.15063.502
+C:\WINDOWS\SYSTEM32\CoreUIComponents.dll:CoreUIComponents.dll (00007FF99E790000), size: 2957312 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\CoreUIComponents.dll', fileVersion: 10.0.15063.674
+C:\WINDOWS\SYSTEM32\CoreMessaging.dll:CoreMessaging.dll (00007FF9ADD40000), size: 929792 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\CoreMessaging.dll', fileVersion: 10.0.15063.608
+C:\WINDOWS\SYSTEM32\ntmarta.dll:ntmarta.dll (00007FF9AF2D0000), size: 200704 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\ntmarta.dll', fileVersion: 10.0.15063.0
+C:\WINDOWS\SYSTEM32\usermgrcli.dll:usermgrcli.dll (00007FF9A9C40000), size: 86016 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\usermgrcli.dll', fileVersion: 10.0.15063.0
+C:\Program Files (x86)\Steam\steamapps\common\SteamVR\bin\vrclient_x64.dll:vrclient_x64.dll (00007FF9762E0000), size: 2277376 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\Steam\steamapps\common\SteamVR\bin\vrclient_x64.dll'
+C:\WINDOWS\SYSTEM32\MSVCR120.dll:MSVCR120.dll (00007FF9AAF60000), size: 978944 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\MSVCR120.dll', fileVersion: 12.0.40649.5
+C:\WINDOWS\SYSTEM32\MSVCP120.dll:MSVCP120.dll (00007FF9AA430000), size: 679936 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\MSVCP120.dll', fileVersion: 12.0.40649.5
+C:\WINDOWS\SYSTEM32\dhcpcsvc6.DLL:dhcpcsvc6.DLL (00007FF9A9F40000), size: 90112 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\dhcpcsvc6.DLL', fileVersion: 10.0.15063.0
+C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL:dhcpcsvc.DLL (00007FF9A9F20000), size: 106496 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL', fileVersion: 10.0.15063.0
+C:\Windows\System32\rasadhlp.dll:rasadhlp.dll (00007FF9A9730000), size: 40960 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\rasadhlp.dll', fileVersion: 10.0.15063.0
+C:\WINDOWS\System32\fwpuclnt.dll:fwpuclnt.dll (00007FF9A9B80000), size: 438272 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\fwpuclnt.dll', fileVersion: 10.0.15063.0
+C:\WINDOWS\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FF9AC000000), size: 1740800 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\dbghelp.dll', fileVersion: 10.0.15063.250
+C:\WINDOWS\SYSTEM32\SspiCli.dll:SspiCli.dll (00007FF9B0010000), size: 196608 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\SspiCli.dll', fileVersion: 10.0.15063.674
+
+========== OUTPUTING STACK TRACE ==================
+
+0x00007FF9AD741464 (d3d11) CreateDirect3D11SurfaceFromDXGISurface
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF67037B9A7)
+0x00007FF67037B9A7 (aMaze_V1) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF67042094B)
+0x00007FF67042094B (aMaze_V1) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF6702D1FF2)
+0x00007FF6702D1FF2 (aMaze_V1) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF670356102)
+0x00007FF670356102 (aMaze_V1) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF67035BF1F)
+0x00007FF67035BF1F (aMaze_V1) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF67034213A)
+0x00007FF67034213A (aMaze_V1) 
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF6706F27AC)
+0x00007FF6706F27AC (aMaze_V1) 
+0x00007FF9B3162774 (KERNEL32) BaseThreadInitThunk
+0x00007FF9B3D10D51 (ntdll) RtlUserThreadStart
+
+========== END OF STACKTRACE ===========
+
+**** Crash! ****
