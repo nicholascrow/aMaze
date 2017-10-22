@@ -12,29 +12,49 @@ namespace Scripts.Grab
             get { return Owner != null; }
         }
 
+        public Vector3 HardSetRotation;
+        public bool UseSetChild;
+
         public bool HasPhysicsEnabled { get; private set; }
         public bool IsHighlighted { get; set; }
+        public IInteractionObject HoldingOwner { get; set; }
 
         private Color oldColor;
 
         public IInteractionObject Owner { get; set; }
-
 
         void Start()
         {
             oldColor = GetComponent<Renderer>().material.color;
         }
 
-
+        private Transform OldParent = null;
         public void BeginInteractObject(IControllerActionHandler handler)
         {
-            print("here!!!!");
+            if (UseSetChild)
+            {
+                transform.GetComponent<Rigidbody>().isKinematic = true;
+                OldParent = transform.parent;
+                transform.SetParent(handler.Grab.gameObject.transform);
+            }
         }
 
         public void EndInteractObject(IControllerActionHandler handler)
         {
+            if (UseSetChild)
+            {
+                transform.SetParent(OldParent);
+                transform.GetComponent<Rigidbody>().isKinematic = false;
+                OldParent = null;
+            }
+
+            if (this.GetComponent<CheckBelow>() != null)
+            {
+                GetComponent<CheckBelow>().DoCheck();
+            }
+
         }
-        
+
 
         public GameObject GetGameObject()
         {
@@ -43,10 +63,37 @@ namespace Scripts.Grab
 
         public void UpdateTransform()
         {
-            if (Owner != null)
+            if (Owner != null && !UseSetChild)
             {
                 transform.position = Owner.GetGameObject().transform.position;
-                transform.rotation = Owner.GetGameObject().transform.rotation;
+                Quaternion old = Owner.GetGameObject().transform.rotation;
+                transform.rotation = old;
+                // Quaternion.Euler(new Vector3(old.eulerAngles.x + OffsetRotation.x, old.eulerAngles.y + OffsetRotation.y, old.eulerAngles.z + OffsetRotation.z));
+            }
+            else if(Owner != null && UseSetChild)
+            {
+                transform.localRotation = Quaternion.Euler(HardSetRotation);
+                transform.localPosition = Vector3.zero;
+                //  Quaternion old = Owner.GetGameObject().transform.rotation;
+                // transform.rotation = HardSetRotation.ToQuaternion();
+            }
+        }
+
+        IEnumerator ReGrabIn2Seconds()
+        {
+            for (float i = 0; i < 2f; i += Time.deltaTime)
+            {
+                if (IsGrabbed)
+                {
+                    yield break;
+                }
+                yield return null;
+            }
+            if (!IsGrabbed && HoldingOwner != null)
+            {
+                Owner = HoldingOwner;
+                HoldingOwner.AsItemHolder().ShrinkObject();
+                HoldingOwner = null;
             }
         }
 
@@ -64,6 +111,11 @@ namespace Scripts.Grab
             else
             {
                 GetComponent<Renderer>().material.color = oldColor;
+            }
+
+            if (HoldingOwner != null && !IsGrabbed)
+            {
+                //   StartCoroutine(ReGrabIn2Seconds());
             }
         }
     }
