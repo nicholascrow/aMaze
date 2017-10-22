@@ -30,6 +30,10 @@ public class ViveInputHandler : MonoBehaviour
         {
             IndexTriggerHeld();
         }
+        if (device.GetTouchDown(SteamVR_Controller.ButtonMask.ApplicationMenu))
+        {
+            Debug.Break();
+        }
 
 
         if (Input.GetKeyDown(KeyCode.Space))
@@ -40,6 +44,7 @@ public class ViveInputHandler : MonoBehaviour
         {
             IndexTriggerUp();
         }
+
 
     }
 

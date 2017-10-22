@@ -29,7 +29,7 @@ public class TeleportLocation : MonoBehaviour,IInteractableObject
     private bool TimedTeleportComplete = false;
     private IEnumerator TimedTeleport()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(.1f);
         TimedTeleportComplete = true;
     }
 
@@ -39,10 +39,15 @@ public class TeleportLocation : MonoBehaviour,IInteractableObject
         StopCoroutine(TimedTeleport());
         if (TimedTeleportComplete)
         {
-            RaycastHit? h = handler.Raycaster.TryRaycast(-1 << LayerMask.NameToLayer("InteractibleObject"));
-            if (h != null && h.Value.transform.GetComponent<TeleportLocation>())
+            RaycastHit? h = handler.Raycaster.TryRaycast(-1);
+            if (h != null
+                && h.Value.transform.GetComponent<IInteractableObject>() != null
+                && h.Value.transform.GetComponent<IInteractableObject>().AsTeleportLocation() != null)
+            {
                 handler.AsViveActionHandler().Player.transform.position = h.Value.point;
-            TimedTeleportComplete = false;
+                TimedTeleportComplete = false;
+            }
+
         }
     }
 }

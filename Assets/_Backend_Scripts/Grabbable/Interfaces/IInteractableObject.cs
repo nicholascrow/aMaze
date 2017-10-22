@@ -16,6 +16,7 @@ public interface IGrabInteractibleObject : IInteractableObject
     bool IsGrabbed { get; }
     bool HasPhysicsEnabled { get; }
     bool IsHighlighted { get; set; }
+    IInteractionObject HoldingOwner { get; set; }
     void UpdateTransform();
 }
 
@@ -32,5 +33,10 @@ public interface IGrabInteractionObject : IInteractionObject
 {
     IInteractableObject CurrentlyGrabbedObject { get; }
     bool CompareToGrabbedObject(IInteractableObject checkObj);
+}
+
+public interface IItemHolderInteractionObject : IInteractionObject
+{
+
 }
 

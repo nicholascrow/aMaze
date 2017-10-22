@@ -65,18 +65,24 @@ public class Raycaster : MonoBehaviour
     {
         print("Begin Interaction!");
         if (CurrentInteractableObject != null)
+        {
+            Debug.LogError("Currently Holding something! :(");
             return null;
-
-        RaycastHit? h = TryRaycast(-1 << LayerMask.NameToLayer("InteractibleObject"));
-        if (h == null) return null;
+        }
+        RaycastHit? h = TryRaycast(1 << LayerMask.NameToLayer("InteractibleObject"));
+        if (h == null) {return null;}
 
         IInteractableObject obj = h.Value.transform.GetComponent<IInteractableObject>();
-        
-        if (obj == null) return null;
-
+        print(h.Value.transform.name);
+        if (obj == null) {return null;}
 
         if (obj is IGrabInteractibleObject)
         {
+            if (obj.Owner.AsItemHolder() != null)
+            {
+                obj.Owner.AsItemHolder().TakeObject();
+            }
+
             if (obj.AsGrabInteractibleObject().Owner == null)
                 ActionHandler.Grab.BeginInteractObject(ActionHandler);
         }
